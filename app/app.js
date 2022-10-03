@@ -1,5 +1,7 @@
 function init() {
-    $("login").on("click", function(e) {
+    $("#login").on("click", function(e) {
+        console.log("on");
+
         e.preventDefault();
 
         let em = $("#email").val();
@@ -29,5 +31,6 @@ function init() {
 function initListeners() {}
  
 $(document).ready(function () {
+    console.log("ready")
     init();
 });
