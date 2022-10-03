@@ -15,11 +15,13 @@ function init() {
             alert("Please enter your password")
             console.log("password");
         }else{
-            Swal.fire(
-                'Awesome!',
-                'You have successfully logged in!',
-                'Happy Watching!'
-              )
+            // Swal.fire(
+            //     'Awesome!',
+            //     'You have successfully logged in!',
+            //     'Happy Watching!'
+            //   )
+
+            alert("Success! Happy Watching!" )
 
               console.log("success");
         }
