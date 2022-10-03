@@ -1,0 +1,229 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ background-color: lightgray;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+nav{
+    height: 800px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 14px 626px;
+
+    background-image: url(../images/Screen\ Shot\ 2022-10-02\ at\ 4.02.34\ PM.png);
+     background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+nav a {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* font-weight: lighter; */
+   color: #ddd;
+   font-size: 22px;
+   text-decoration: none;
+   text-transform: capitalize;
+  
+}
+
+.icon_one {
+    margin-top: -780px;
+    margin-left: 1540px;
+    font-size: 22px;
+    color: #ddd;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    /* background-color: pink; */
+    margin-left: 28px;
+    margin-top: -28px;
+    /* background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat; */
+}
+
+.logo img {
+    height: 20px;
+    width: 60px;
+    margin-left: 32px;
+    margin-top: 6px;
+}
+
+.si {
+    height: 30px;
+    width: 100px;
+    background-color: #ddd;
+    margin-left: 1610px;
+    margin-top: -54px;
+    border-radius: 12px;
+    position: absolute;
+}
+
+.si a {
+    position: relative;
+    font-family: sans-serif;
+    color: #000;
+    margin-left: 28px;
+    top: 6px;
+    text-decoration: none;
+}
+
+.img_one {
+    width: 100%;
+    height: 600px;
+   background-color: pink;
+   margin-top: 730px;
+   
+   background-image: url(../images/Screen\ Shot\ 2022-10-02\ at\ 5.54.52\ PM.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.img_two {
+    width: 100%;
+    height: 200px;
+   background-color: pink;
+   margin-top: -10px;
+   
+   background-image: url(../images/Screen\ Shot\ 2022-10-02\ at\ 5.56.32\ PM.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.img_three {
+    width: 100%;
+    height: 640px;
+    background-color: pink;
+   
+   background-image: url(../images/Screen\ Shot\ 2022-10-02\ at\ 5.56.53\ PM.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+
+    background-image: url(../images/Screen\ Shot\ 2022-10-02\ at\ 5.57.21\ PM.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+/* Sign in section */
+
+.hero {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.hero img {
+    height: 30px;
+    width: 80px;
+    margin-left: 28px;
+   margin-top: 6px;
+}
+
+.si_box {
+    width: 440px;
+    height: 600px;
+    background-color: #fff;
+    margin-left: 660px;
+   margin-top: 80px;
+   position: absolute;
+}
+
+.si_box h1 {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    top: 40px;
+    left: 20px;
+}
+
+.email {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.in_1 {
+    position: relative;
+    height: 40px;
+    width: 380px;
+    top: 80px;
+    left: -30px;
+}
+
+.pw {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.in_2 {
+    position: relative;
+    height: 40px;
+    width: 380px;
+    top: 120px;
+   left: 20px;
+}
+
+.link_1 {
+    position: relative;
+    font-size: 8px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+    top: 140px;
+    left: 20px;
+    color: rgb(42, 90, 203);
+}
+
+.btn button {
+    position: relative;
+    height: 40px;
+    width: 380px;
+    background-color: gray;
+
+    top: 160px;
+    left: 20px;
+    border-radius: 4px;
+    color: #fff;
+    border-color: gray;
+}
+
+.tag_1 {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+
+    top: 300px;
+}
+
+.tag_1 p {
+    color: rgb(42, 90, 203);
+}
